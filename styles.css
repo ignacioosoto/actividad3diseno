@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.imagen {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.imagen img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.boton-like {
+    background-color: #008CBA;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-like.liked {
+    background-color: #e74c3c;
+}
